@@ -1,0 +1,96 @@
+body
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(24, 23, 23);
+}
+
+.site
+{
+    border-radius: 10px;
+    background-color: white;
+}
+.logo
+{
+  color:#5236b7;
+  font-size: 25px;
+
+
+}
+.header
+{
+  
+    margin-left: 5vh;
+    display: flex;
+    justify-content:flex-start;
+   
+}
+.header ul li
+{
+
+    display: inline-block;
+    list-style: none;
+    padding: 2vh;
+    border:solid black 2px;
+    border-radius: 5px;
+}
+.baner
+{
+    border-top: solid black 2px;
+    margin-top: 1%;
+}
+.baner img
+{
+    padding-top: 2%;
+    height: 450px;
+    width: 1000px;
+    margin-bottom: 5%;
+}
+
+.osom
+{
+    color:white;
+font-size: 50px;
+display: flex;
+justify-content: center;
+margin-top: -35%; 
+}
+.article
+{
+    margin-top: 25%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.article1
+{
+   
+    width: 400px;
+    height: 200px;
+    border: solid black 2px;
+    padding: 4vh;
+    border-radius: 4px;
+}
+
+.article2
+{
+    width: 400px;
+    height: 200px;
+    margin-top: 5%;
+    border: solid black 2px;
+    padding: 4vh;
+    border-radius: 4px;
+}
+
+.footer
+{
+    padding: 10px;
+    margin-top: 5%;
+    font-size: 25px;
+    border-top: solid black 2px;
+    text-indent: 2%;
+}
