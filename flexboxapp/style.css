@@ -1,0 +1,117 @@
+body
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5870ea;
+}
+
+.main
+{
+
+    border: rgb(30, 29, 29) solid 10px;
+    border-bottom: 70px solid rgb(30, 29, 29) ;
+    border-radius: 11px;
+}
+
+.header
+{
+
+display: flex;
+justify-content: space-between;
+background-color: #f1ea2b;
+border-bottom: solid 7px #c3c3bf;
+height: 20vh;
+}
+.back
+{
+
+    background-color: black;
+    margin-top: 6.5vh;
+    margin-left: 2vh;
+    height: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    opacity: .6;
+    transition: 1s;
+}
+.back a
+{
+    color: whitesmoke;
+}
+.back:hover
+{
+    cursor: pointer;
+    transition: 1s;
+    opacity: 1;
+}
+
+.title
+{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 6.5vh;
+}
+.menu
+{
+    margin-top: 6.5vh;
+    background-color: black;
+    margin-right: 2vh;
+    height: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    opacity: .6;
+    transition: 1s;
+}
+.menu a
+{
+    color: whitesmoke;
+}
+.menu:hover
+{
+    cursor: pointer;
+    transition: 1s;
+    opacity: 1;
+}
+
+.text
+{
+    font-size: 20px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 700px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+    
+  display: flex;
+  justify-content: space-around;
+   background: #f1ea2b;
+   font-size: 20px;
+   
+}
+.footer1
+{
+    padding: 60px;
+    border-right: 1px solid black ;
+}
+.footer1:hover
+{
+    border-bottom: solid 4px black;
+}
+
